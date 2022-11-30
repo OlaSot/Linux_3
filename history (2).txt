@@ -1,0 +1,20 @@
+   0 vi /tmp/file.txt
+   1 df -h | head -3 >> /tmp/file.txt
+   2 cd /tmp
+   3 cat file.txt
+   4 ls -l
+   5 chmod u-r,g+w,o+x /tmp/file.txt
+   6 ls -l
+   7 env
+   8 cd
+   9 export NAME=OLHA
+  10 export VAR=HELLO
+  11 echo $NAME >> /tmp/file.txt
+  12 echo $VAR >> /tmp/file.txt
+  13 cat /tmp/file.txt
+  14 unset NAME
+  15 unset OLHA
+  16 unset VAR
+  17 cat /tmp/file.txt
+  18 nano
+  19 history > history.txt
